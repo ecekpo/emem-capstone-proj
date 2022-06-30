@@ -194,7 +194,7 @@ body {
 }
 
 .twenty-nineteen {
-  background: url('./images/lecturesubmit1.jpg') no-repeat 0, 0 #ec5242;
+  background: url('./images/lecturesubmitnew.jpg') no-repeat 0, 0 #ec5242;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: contain;
@@ -206,7 +206,7 @@ body {
 }
 
 .twenty-eighteen {
-  background: url('./images/lecture-hall.jpg') no-repeat 0, 0 #ec5242;
+  background: url('./images/lecture-hallnew.jpg') no-repeat 0, 0 #ec5242;
   background-blend-mode: multiply;
   background-size: cover;
   transition: ease-in-out 0.5s;

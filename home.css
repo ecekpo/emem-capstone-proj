@@ -91,7 +91,7 @@ body {
 
 /* Main program section */
 .program {
-  background: url('./images/main-bg.png') no-repeat 0, 0 #0a0a0a;
+  background: url('./images/main-bg.jpg') no-repeat 0, 0 #0a0a0a;
   background-size: cover;
   margin-top: 0%;
 }
@@ -309,8 +309,8 @@ body {
 }
 
 .partner-img {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 /* Footer section */

@@ -52,15 +52,17 @@ const createSpeaker = () => {
   speakers.forEach((speaker) => {
     addSpeaker.insertAdjacentHTML(
       'beforeend',
+      `
         <li id="0" class="item">
-            <div class="speaker-img-div"><img class="speaker-img" src='$speaker.image' alt="" /></div>
+            <div class="speaker-img-div"><img class="speaker-img" src="${speaker.image}" alt=""></div>
             <div class="speaker-details">
               <p class="name">${speaker.name}</p>
               <p class="work">${speaker.job}</p>
               <div class="div-item"></div>
               <p class="work-description">${speaker.description}</p>
             </div>
-         </li>,
+          </li>
+      `,
     );
   });
 };
