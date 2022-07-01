@@ -23,7 +23,7 @@ body {
 }
 
 .about-box {
-  background: url('./images/homepageimg.png') no-repeat;
+  background: url('./images/mobileaboutnew.png') no-repeat;
   background-size: cover;
   padding-bottom: 3%;
 }
@@ -378,8 +378,8 @@ body {
   }
 
   .summit-logo {
-    width: 150px;
-    margin-left: 10%;
+    width: 100px;
+    margin-left: -30%;
   }
 
   .navbar-logo-div {

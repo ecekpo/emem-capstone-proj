@@ -99,7 +99,7 @@ body {
 .main-program {
   position: relative;
   color: #fff;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 2%;
   text-align: center;
 }
@@ -385,8 +385,8 @@ body {
   }
 
   .summit-logo {
-    width: 150px;
-    margin-left: 10%;
+    width: 100px;
+    margin-left: 70%;
   }
 
   .navbar-logo-div {
