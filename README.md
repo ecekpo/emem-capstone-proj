@@ -1,62 +1,49 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# HTML/CSS & JavaScript capstone project - D'GEES InfoTech Global Systems Summit page
 
-> Description the project.
-
+  > This Project is about creating a responsive webpage
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link] (https://ecekpo.github.io/emem-capstone-proj/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+-  To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Basic HTML & CSS knowledge
+- Basic JavaScript knowledge
+
 ### Setup
 
-### Install
+- git clone github.com/ecekpo/emem-capstone-proj.git
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+- Switch to emem-capstone-proj directory
 
 ## Authors
 
-👤 **Author1**
+👤 **Emem Ekpo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@git@ecekpo](https://github.com/@ecekpo)
+- Twitter: [@twitterememcookey](https://twitter.com/ememcookey)
+- LinkedIn: [LinkedIn](https://https://www.linkedin.com/in/emem-ekpo-857135234/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/@ecekpo/issues/).
 
 ## Show your support
 
@@ -64,9 +51,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I give credit to Cindy Shin the author of the original design which I used to designed this capstone 
+- My acknowledgement also goes to the partners whose logo I used in the project
+- Also, acknowledged are the speakers whose images and their portfolio I used to make this project looks professional
 
 ## 📝 License
 
