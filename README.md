@@ -12,8 +12,7 @@
 
 ## Live Demo 
 
-[Live Demo Link] ()
-Video Demo (https://drive.google.com/file/d/13Km0UwaQjy5rvKNykDjiykMde0BPqfpX/view?)
+[Live Demo Link] (https://ecekpo.github.io/emem-capstone-proj/)
 
 ## Getting Started
 
