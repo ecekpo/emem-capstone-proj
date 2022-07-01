@@ -53,7 +53,7 @@ Give a ⭐️ if you like this project!
 
 - I give credit to Cindy Shin the author of the original design which I used to designed this capstone 
 - My acknowledgement also goes to the partners whose logo I used in the project
-- Also, acknowledged are the speakers whose images and their portfolio I used to make this project looks        professional
+- Also, acknowledged are the speakers whose images and their portfolio I used to make this project looks professional
 
 ## 📝 License
 
