@@ -12,7 +12,8 @@
 
 ## Live Demo 
 
-[Live Demo Link](https://drive.google.com/file/d/13Km0UwaQjy5rvKNykDjiykMde0BPqfpX/view?)
+[Live Demo Link] ()
+Video Demo (https://drive.google.com/file/d/13Km0UwaQjy5rvKNykDjiykMde0BPqfpX/view?)
 
 ## Getting Started
 
@@ -51,9 +52,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to Cindy Shin in Behance whose design I used 
-- Partners whose logo  I used
-- Speakers images and their portfolio 
+- I give credit to Cindy Shin the author of the original design which I used to designed this capstone 
+- My acknowledgement also goes to the partners whose logo I used in the project
+- Also, acknowledged are the speakers whose images and their portfolio I used to make this project looks        professional
 
 ## 📝 License
 
