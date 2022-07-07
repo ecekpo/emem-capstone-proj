@@ -12,7 +12,7 @@
 
 ## Live Demo 
 
-[Live Demo Link] (https://ecekpo.github.io/emem-capstone-proj/)
+[Live Demo Link]  https://ecekpo.github.io/emem-capstone-proj/)
 
 ## Getting Started
 
