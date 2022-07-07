@@ -42,7 +42,7 @@ body {
   margin-bottom: 80%;
 }
 
-.hello {
+.summit-caption {
   position: relative;
   color: #f35826;
   font-size: 200%;
@@ -51,7 +51,7 @@ body {
   font-family: 'COCOGOOSE', sans-serif;
 }
 
-.heading {
+.about_heading {
   position: relative;
   color: #f35826;
   font-size: 400%;
@@ -89,9 +89,8 @@ body {
   opacity: 0.7;
 }
 
-/* Main program section */
 .program {
-  background: url('./images/main-program.jpg') no-repeat 0, 0 #0a0a0a;
+  background: url('./images/bground.jpg') no-repeat 0, 0 #0a0a0a;
   background-size: cover;
   margin-top: 0%;
 }
@@ -329,7 +328,7 @@ body {
   display: flex;
 }
 
-.footer-logo-img {
+.footer-logoimg {
   width: 100px;
   height: 100px;
   padding-top: 6%;
@@ -389,7 +388,7 @@ body {
     margin-left: 70%;
   }
 
-  .navbar-logo-div {
+  .navlogo {
     margin-left: 4%;
   }
 
@@ -404,21 +403,10 @@ body {
     padding-right: 28%;
   }
 
-  .navigation {
+  .navigation-bar {
     display: flex;
     align-items: center;
     margin-right: 0;
-  }
-
-  .navigation a {
-    padding-right: 20%;
-    text-decoration: none;
-    color: #000;
-    font-size: 110%;
-  }
-
-  .navigation a:hover {
-    color: #f35826;
   }
 
   .dgees-btn {
@@ -435,11 +423,21 @@ body {
     background: #f35826;
   }
 
-  .hello {
+  .navigation-bar a {
+    padding-right: 20%;
+    text-decoration: none;
+    color: #000;
+    font-size: 110%;
+  }
+
+  .navigation-bar a:hover {
+    color: #f35826;
+  }
+  .summit-caption {
     padding-top: 5%;
   }
 
-  .heading {
+  .about_heading {
     margin-right: 20%;
   }
 
@@ -564,7 +562,7 @@ body {
   display: none;
 }
 
-.mobile-menu {
+.mmenu {
   position: fixed;
   top: 0;
   left: 0;
@@ -579,16 +577,16 @@ body {
   padding-right: 5%;
 }
 
-.mobile-menu.active {
+.mmenu.active {
   transform: scale(1);
 }
 
-.mobile-menu-header {
+.m-header {
   display: flex;
   justify-content: flex-end;
 }
 
-.mobile-menu nav {
+.mmenu nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -599,7 +597,7 @@ body {
   line-height: 44px;
 }
 
-.mobile-menu a {
+.mmenu a {
   text-decoration: none;
   color: #fff;
   cursor: pointer;

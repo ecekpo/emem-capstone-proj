@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
 
 /* about page */
 * {
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   min-height: 100vh;
   background-color: #e5e5e527;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .about-box {
-  background: url('./images/mobileaboutnew.png') no-repeat;
+  background: url("./images/mobileaboutnew.png") no-repeat;
   background-size: cover;
   padding-bottom: 3%;
 }
@@ -50,7 +50,7 @@ body {
   font-weight: normal;
 }
 
-.hello {
+.summit-caption {
   position: relative;
   color: #f35826;
   font-size: 200%;
@@ -58,7 +58,7 @@ body {
   padding-left: 5%;
 }
 
-.heading {
+.about_heading {
   position: relative;
   color: #f35826;
   font-size: 400%;
@@ -67,7 +67,7 @@ body {
   padding-left: 5%;
 }
 
-.mission {
+.summit-mission {
   position: relative;
   border: #f2f2f2 2px solid;
   background-color: #fff;
@@ -91,11 +91,6 @@ body {
   opacity: 0.8;
 }
 
-/* .logo-details {
-  margin-top: 0px;
-  background-color: #f35826;
-} */
-
 .logo-heading {
   position: relative;
   text-align: center;
@@ -104,7 +99,7 @@ body {
 }
 
 .logo-heading::after {
-  content: '';
+  content: "";
   height: 2px;
   width: 5%;
   background: #f35826;
@@ -194,7 +189,7 @@ body {
 }
 
 .twenty-nineteen {
-  background: url('./images/lecturesubmitnew.jpg') no-repeat 0, 0 #ec5242;
+  background: url("./images/lecturesubmitnew.jpg") no-repeat 0, 0 #ec5242;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: contain;
@@ -206,7 +201,7 @@ body {
 }
 
 .twenty-eighteen {
-  background: url('./images/lecture-hallnew.jpg') no-repeat 0, 0 #ec5242;
+  background: url("./images/lecture-hallnew.jpg") no-repeat 0, 0 #ec5242;
   background-blend-mode: multiply;
   background-size: cover;
   transition: ease-in-out 0.5s;
@@ -256,7 +251,7 @@ body {
 }
 
 .partner::after {
-  content: '';
+  content: "";
   height: 2px;
   width: 5%;
   background: #f35826;
@@ -308,7 +303,7 @@ body {
   display: flex;
 }
 
-.footer-logo-img {
+.footer-logoimg {
   width: 100px;
   height: 100px;
   padding-top: 6%;
@@ -338,8 +333,8 @@ body {
     display: none;
   }
 
-  .heading::after {
-    content: '';
+  .about_heading::after {
+    content: "";
     height: 2px;
     width: 4%;
     background: #f35826;
@@ -382,7 +377,7 @@ body {
     margin-left: -30%;
   }
 
-  .navbar-logo-div {
+  .navlogo {
     margin-left: 15%;
   }
 
@@ -390,27 +385,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    -webkit-box-shadow: 0 4px 6px -6px #222;
-    -moz-box-shadow: 0 4px 6px -6px #222;
-    box-shadow: 0 4px 6px -6px #222;
+    -webkit-box-shadow: 0 4px 6px -6px #200;
+    -moz-box-shadow: 0 4px 6px -6px #200;
+    box-shadow: 0 4px 6px -6px #200;
     padding-top: 1%;
-    padding-right: 28%;
+    padding-right: 27%;
   }
 
-  .navigation {
-    display: flex;
-    align-items: center;
-    margin-right: 0;
-  }
-
-  .navigation a {
-    padding-right: 20%;
-    text-decoration: none;
-    color: #000;
-    font-size: 110%;
-  }
-
-  .navigation a:hover {
+  .navigation-bar a:hover {
     color: #f35826;
   }
 
@@ -422,17 +404,29 @@ body {
     height: 40px;
   }
 
+  .navigation-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .navigation-bar a {
+    padding-right: 20%;
+    text-decoration: none;
+    color: #000;
+    font-size: 110%;
+  }
   .dgees-btn:hover {
     cursor: pointer;
     color: white;
     background: #f35826;
   }
 
-  .hello {
+  .summit-caption {
     display: none;
   }
 
-  .heading {
+  .about_heading {
     position: relative;
     text-align: center;
     padding-top: 6%;
@@ -440,7 +434,7 @@ body {
     padding-left: 20%;
   }
 
-  .mission {
+  .summit-mission {
     margin-right: 20%;
     margin-left: 20%;
     margin-top: 5%;
@@ -460,8 +454,6 @@ body {
     font-size: 53%;
   }
 
-  /* previous summits section */
-
   .previous-div {
     height: 2px;
     width: 5%;
@@ -476,7 +468,6 @@ body {
     margin-right: 2%;
   }
 
-  /* partner section */
   .partner-section {
     display: none;
   }
@@ -504,37 +495,11 @@ body {
   }
 }
 
-/* mobile menu button */
-
 .hamburger.active {
   display: none;
 }
 
-.mobile-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: #ec5342ec;
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(10px);
-  transition: 200ms ease-in-out;
-  transform: scale(0);
-  z-index: 10;
-  padding-right: 5%;
-}
-
-.mobile-menu.active {
-  transform: scale(1);
-}
-
-.mobile-menu-header {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.mobile-menu nav {
+.mmenu nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -545,7 +510,7 @@ body {
   line-height: 44px;
 }
 
-.mobile-menu a {
+.mmenu a {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
@@ -560,4 +525,28 @@ body {
   background: none;
   font-size: 400%;
   font-weight: 100;
+}
+
+.mmenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #ec5342ec;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(10px);
+  transition: 200ms ease-in-out;
+  transform: scale(0);
+  z-index: 10;
+  padding-right: 5%;
+}
+
+.mmenu.active {
+  transform: scale(1);
+}
+
+.m-header {
+  display: flex;
+  justify-content: flex-end;
 }

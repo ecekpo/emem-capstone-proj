@@ -73,15 +73,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Mobile menu
 const hamburger = document.querySelector('.hamburger');
-const mobileMenu = document.querySelector('.mobile-menu');
-const closeMenu = document.querySelector('.close-button');
+const mobileMenu = document.querySelector('.mmenu');
+const closeMenu = document.querySelector('.x-close');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   mobileMenu.classList.toggle('active');
 });
 
-document.querySelectorAll('.navigate').forEach((n) => n.addEventListener('click', () => {
+document.querySelectorAll('.navibar').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   mobileMenu.classList.remove('active');
 }));
