@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/cocogoose");
+/* @import url("https://fonts.cdnfonts.com/css/cocogoose");
 
 /* about page */
 * {
@@ -17,7 +17,7 @@ body {
   background-color: #e5e5e527;
 }
 
-.social-media,
+.about_social_media-icon,
 .navbar {
   display: none;
 }
@@ -28,18 +28,42 @@ body {
   padding-bottom: 3%;
 }
 
-.hamburger {
-  border: none;
-  background: transparent;
-  position: relative;
-  margin-top: 8%;
-  padding-left: 5%;
+.social-nav {
+  padding-right: 10%;
+  gap: 15px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
 }
 
 .hamburger img {
   width: 60%;
   height: 70%;
   margin-bottom: 80%;
+}
+
+.social-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 85%;
+}
+
+.program-sponsor img {
+  padding-right: 5%;
+}
+
+.social-nav a > img {
+  width: 20px;
+  height: 20px;
+}
+
+.hamburger {
+  border: none;
+  background: transparent;
+  position: relative;
+  margin-top: 8%;
+  padding-left: 5%;
 }
 
 .about-intro {
@@ -67,7 +91,7 @@ body {
   padding-left: 5%;
 }
 
-.summit-mission {
+.about-summit-mission {
   position: relative;
   border: #f2f2f2 2px solid;
   background-color: #fff;
@@ -85,7 +109,7 @@ body {
   margin: 10%;
 }
 
-.email {
+.dgees-email {
   text-decoration: underline;
   font-weight: bold;
   opacity: 0.8;
@@ -139,7 +163,7 @@ body {
   margin-left: 2%;
 }
 
-.period {
+.summit_period {
   border-top: grey solid 1px;
   border-bottom: grey solid 1px;
   margin-top: 0%;
@@ -161,7 +185,7 @@ body {
   margin-bottom: 20px;
 }
 
-.previous-div {
+.previous-summit {
   height: 2px;
   width: 10%;
   background: #f35826;
@@ -228,12 +252,7 @@ body {
   color: #fff;
 }
 
-/* Partners' section */
-.partner-section img {
-  padding-right: 5%;
-}
-
-.partner-section {
+.program-sponsor {
   background: #414246;
   padding-bottom: 5%;
   padding-top: 3%;
@@ -260,20 +279,20 @@ body {
   left: 47%;
 }
 
-.img-rows {
+.about-img-rows {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.img-row1 {
+.about-img-row1 {
   display: flex;
   gap: 20px;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
-.img-row2 {
+.about-img-row2 {
   display: flex;
   gap: 40px;
 }
@@ -284,7 +303,7 @@ body {
 }
 
 /* Footer */
-.mobile-footer {
+.about-mobile-footer {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -347,12 +366,12 @@ body {
     top: 19%;
   }
 
-  .social-media {
+  .about_social_media-icon {
     background: #585858;
     display: block;
   }
 
-  .social-nav {
+  .about-social-nav-icon {
     padding-right: 10%;
     display: flex;
     justify-content: flex-end;
@@ -360,14 +379,14 @@ body {
     padding-bottom: 0.5%;
   }
 
-  .social-nav a {
+  .about-social-nav-icon a {
     padding-right: 2%;
     text-decoration: none;
     color: #fff;
     font-size: 85%;
   }
 
-  .social-nav a > img {
+  .about-social-nav-icon a > img {
     width: 20px;
     height: 20px;
   }
@@ -392,6 +411,13 @@ body {
     padding-right: 27%;
   }
 
+  .navigation-bar a {
+    padding-right: 20%;
+    text-decoration: none;
+    color: #000;
+    font-size: 110%;
+  }
+
   .navigation-bar a:hover {
     color: #f35826;
   }
@@ -410,12 +436,6 @@ body {
     margin-right: 0;
   }
 
-  .navigation-bar a {
-    padding-right: 20%;
-    text-decoration: none;
-    color: #000;
-    font-size: 110%;
-  }
   .dgees-btn:hover {
     cursor: pointer;
     color: white;
@@ -434,7 +454,7 @@ body {
     padding-left: 20%;
   }
 
-  .summit-mission {
+  .about-summit-mission {
     margin-right: 20%;
     margin-left: 20%;
     margin-top: 5%;
@@ -450,11 +470,11 @@ body {
     margin-left: 30%;
   }
 
-  .period {
+  .summit_period {
     font-size: 53%;
   }
 
-  .previous-div {
+  .previous-summit {
     height: 2px;
     width: 5%;
     background: #f35826;
@@ -468,11 +488,11 @@ body {
     margin-right: 2%;
   }
 
-  .partner-section {
+  .program-sponsor {
     display: none;
   }
 
-  .mobile-footer {
+  .about-mobile-footer {
     display: none;
   }
 
@@ -499,7 +519,7 @@ body {
   display: none;
 }
 
-.mmenu nav {
+.menu_top_about nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -510,7 +530,7 @@ body {
   line-height: 44px;
 }
 
-.mmenu a {
+.menu_top_about a {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
@@ -527,7 +547,7 @@ body {
   font-weight: 100;
 }
 
-.mmenu {
+.menu_top_about {
   position: fixed;
   top: 0;
   left: 0;
@@ -542,11 +562,11 @@ body {
   padding-right: 5%;
 }
 
-.mmenu.active {
+.menu_top_about.active {
   transform: scale(1);
 }
 
-.m-header {
+.about_menu_header {
   display: flex;
   justify-content: flex-end;
 }
