@@ -1,6 +1,6 @@
-const speakers = [
+const summitSpeakers = [
   {
-    id: '0',
+    speaker: 'first',
     image: './images/Okuwa.jpg',
     name: 'Okuwa Nwanze',
     job: 'Senior Business Insight Analyst at TD',
@@ -8,7 +8,7 @@ const speakers = [
       'Over 12 years of experience in delivering data driven analytics and Information Technology solutions to businesses and corporations',
   },
   {
-    id: '1',
+    speaker: 'second',
     image: './images/Olanrewaju.jpg',
     name: 'Dr. Olanrewaju Olawepo',
     job: 'Senior Systems Analyst at National Open University of Nigeria (NOUN)',
@@ -16,7 +16,7 @@ const speakers = [
       'Implement, maintain and oversee enforcement of policies and associated plans for system security administration, and user system access based on industry-standard best practices Head IT Resource',
   },
   {
-    id: '2',
+    speaker: 'third',
     image: './images/Richard.jpeg',
     name: 'Richard Amafonye',
     job: 'Head IT Resource, Access Corporation',
@@ -24,14 +24,14 @@ const speakers = [
       'Dr. Richard has a successful track record in leading positions in Technology in the Financial Service Sector.',
   },
   {
-    id: '3',
+    speaker: 'fourth',
     image: './images/Reza.jpg',
     name: 'Reza Tamanani',
     job: 'Senior Business Insight Analyst at TD Wealth| Python | SQL | Pyspark | ML | PowerBI | Tableau',
     description: 'Result oriented professional with in-depth knowledge of database types; big data manipulation using Pyspark, SQL and Python; big data visualization using Tableau and Power BI. ',
   },
   {
-    id: '4',
+    speaker: 'fifth',
     image: './images/Adesina.jpg',
     name: ' Prof. Simon Adesina Soidya',
     job: 'Senior Lecturer',
@@ -39,7 +39,7 @@ const speakers = [
       'He is a lecturer at the Department of Computer Science, Federal University of Agriculture, Abeokuta, (FUNAAB), Ogun State (Nigeria). He was elected Prsident of Nigeria Computer Society (NCS) in July 2019',
   },
   {
-    id: '5',
+    speaker: 'sixth',
     image: './images/IsaAli.jpg',
     name: 'Prof. Isa Ali',
     job: 'Honorable Commissioner',
@@ -48,8 +48,8 @@ const speakers = [
   },
 ];
 const createSpeaker = () => {
-  const addSpeaker = document.querySelector('#speakers');
-  speakers.forEach((speaker) => {
+  const addSpeaker = document.querySelector('#summitSpeakers');
+  summitSpeakers.forEach((speaker) => {
     addSpeaker.insertAdjacentHTML(
       'beforeend',
       `
@@ -73,8 +73,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Mobile menu
 const hamburger = document.querySelector('.hamburger');
-const mobileMenu = document.querySelector('.mmenu');
-const closeMenu = document.querySelector('.x-close');
+const mobileMenu = document.querySelector('.menu_top_about');
+const closeMenu = document.querySelector('.close-button');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');

@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
 
 * {
   box-sizing: border-box;
@@ -11,18 +11,18 @@ html {
 }
 
 body {
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   min-height: 100vh;
   background-color: #e5e5e527;
 }
 
-.social-media,
-.navbar {
+.social-media-icon,
+.menu_navbar {
   display: none;
 }
 
 .box {
-  background: url('./images/homepageimg.png') no-repeat;
+  background: url("./images/homepageimg.png") no-repeat;
   background-size: cover;
   margin-bottom: 0;
   padding-bottom: 50px;
@@ -48,7 +48,7 @@ body {
   font-size: 200%;
   margin-bottom: 0%;
   padding-left: 5%;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "COCOGOOSE", sans-serif;
 }
 
 .about_heading {
@@ -90,7 +90,7 @@ body {
 }
 
 .program {
-  background: url('./images/bground.jpg') no-repeat 0, 0 #0a0a0a;
+  background: url("./images/bground.jpg") no-repeat 0, 0 #0a0a0a;
   background-size: cover;
   margin-top: 0%;
 }
@@ -104,7 +104,7 @@ body {
 }
 
 .main-program::after {
-  content: '';
+  content: "";
   height: 2px;
   width: 5%;
   background: #f35826;
@@ -164,7 +164,7 @@ body {
   display: none;
 }
 
-.program-btn {
+.summit_prog_btn {
   position: relative;
   display: flex;
   justify-content: center;
@@ -206,7 +206,7 @@ body {
 }
 
 .featured-speakers::after {
-  content: '';
+  content: "";
   height: 2px;
   width: 5%;
   background: #f35826;
@@ -279,7 +279,7 @@ body {
 }
 
 .partner::after {
-  content: '';
+  content: "";
   height: 2px;
   width: 5%;
   background: #f35826;
@@ -288,13 +288,13 @@ body {
   left: 47%;
 }
 
-.img-rows {
+.position-img-rows {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.img-row1 {
+.position-img-row1 {
   display: flex;
   gap: 50px;
   margin-bottom: 30px;
@@ -302,7 +302,7 @@ body {
   margin-right: 50px;
 }
 
-.img-row2 {
+.position-img-row2 {
   display: flex;
   gap: 50px;
 }
@@ -357,13 +357,13 @@ body {
     display: none;
   }
 
-  .social-media {
+  .social-media-icon {
     display: flex;
     justify-content: flex-end;
     background: #585858;
   }
 
-  .social-nav {
+  .social-icon-navbar {
     padding-right: 10%;
     gap: 15px;
     display: flex;
@@ -372,13 +372,13 @@ body {
     padding-bottom: 0.5%;
   }
 
-  .social-nav a {
+  .social-icon-navbar a {
     text-decoration: none;
     color: #fff;
     font-size: 85%;
   }
 
-  .social-nav a > img {
+  .social-icon-navbar a > img {
     width: 20px;
     height: 20px;
   }
@@ -392,7 +392,7 @@ body {
     margin-left: 4%;
   }
 
-  .navbar {
+  .menu_navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -433,6 +433,7 @@ body {
   .navigation-bar a:hover {
     color: #f35826;
   }
+
   .summit-caption {
     padding-top: 5%;
   }
@@ -491,11 +492,11 @@ body {
     font-size: 100%;
   }
 
-  .program-btn {
+  .summit_prog_btn {
     display: none;
   }
 
-  .see-program {
+  .see-summit-program {
     text-align: center;
     padding: 10%;
   }
@@ -523,7 +524,7 @@ body {
     margin-top: 80px;
   }
 
-  .img-rows {
+  .position-img-rows {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -540,7 +541,7 @@ body {
   }
 
   .partner::after {
-    content: '';
+    content: "";
     height: 2px;
     width: 3%;
     background: #f35826;
@@ -562,7 +563,7 @@ body {
   display: none;
 }
 
-.mmenu {
+.menu_bar-sect {
   position: fixed;
   top: 0;
   left: 0;
@@ -577,16 +578,16 @@ body {
   padding-right: 5%;
 }
 
-.mmenu.active {
+.menu_bar-sect.active {
   transform: scale(1);
 }
 
-.m-header {
+.menu_header {
   display: flex;
   justify-content: flex-end;
 }
 
-.mmenu nav {
+.menu_bar-sect nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -597,7 +598,7 @@ body {
   line-height: 44px;
 }
 
-.mmenu a {
+.menu_bar-sect a {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
